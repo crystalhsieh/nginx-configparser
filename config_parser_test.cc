@@ -18,7 +18,7 @@ TEST(NginxConfigStringTest, ToString) {
 }
 
 // Standardizes the method to parse strings from a string stream.
-class NginxInputConfigTest:public::testing::Test {
+class NginxInputConfigTest : public ::testing::Test {
 protected:
   bool ParseString(const std::string config_string) {
     std::stringstream config_stream(config_string);
